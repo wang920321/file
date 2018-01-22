@@ -52,7 +52,8 @@ public class UserController {
 		user.setImage(sqlPath);
 		userService.addUser(user);
 		model.addAttribute("user", user);
-		return "myJsp";
+		return "main";
     	
     }
+    
 }
