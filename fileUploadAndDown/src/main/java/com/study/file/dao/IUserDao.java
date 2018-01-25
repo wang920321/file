@@ -10,5 +10,10 @@ import com.study.file.entry.User;
  *
  */
 public interface IUserDao {
-    void addUser(User user);
+	void addUser(User user);
+	
+	/**
+	 *测试一下git分支
+	 */
+	void query();
 }

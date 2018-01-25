@@ -10,5 +10,5 @@ import com.study.file.entry.User;
  *
  */
 public interface IUserService {
-    void addUser(User user);
+	void addUser(User user);
 }

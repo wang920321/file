@@ -16,12 +16,17 @@ import com.study.file.entry.User;
 @Service
 public class UserServiceImpl implements IUserService {
 
-	/* (non-Javadoc)
-	 * @see com.study.file.service.IUserService#addUser(com.study.file.entry.User)
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * com.study.file.service.IUserService#addUser(com.study.file.entry.User)
+	 * 
 	 * @param user
 	 */
 	@Autowired
 	private IUserDao userDao;
+
 	@Override
 	public void addUser(User user) {
 		userDao.addUser(user);
