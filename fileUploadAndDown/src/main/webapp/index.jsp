@@ -11,7 +11,7 @@
 
 <h2>欢迎登陆</h2>
 	
-	<form action="file/upload" method="post" enctype="multipart/form-data">
+	<form action="upload" method="post" enctype="multipart/form-data">
 		用户名:<input type="text" name="name"/><br>
 		密&nbsp;&nbsp;码:<input type="password" name="pwd"/><br>
 		上传头像：<input type="file" name="file">

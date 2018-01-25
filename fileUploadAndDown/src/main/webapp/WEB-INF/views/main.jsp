@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-  gongxini 
+  <img src="${basePath}${user.image}">用户名：${user.name} 
 </body>
 </html>
