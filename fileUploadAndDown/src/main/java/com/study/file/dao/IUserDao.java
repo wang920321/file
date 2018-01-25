@@ -16,4 +16,5 @@ public interface IUserDao {
 	 *测试一下git分支
 	 */
 	void query();
+	void test();
 }
